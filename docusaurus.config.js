@@ -8,20 +8,20 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: "My Site",
-    tagline: "Dinosaurs are cool",
+    title: "LeoRalph",
+    tagline: "",
     favicon: "img/favicon.ico",
 
     // Set the production url of your site here
-    url: "https://your-docusaurus-site.example.com",
+    url: "https://leoralph.dev",
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: "/",
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: "facebook", // Usually your GitHub org/user name.
-    projectName: "docusaurus", // Usually your repo name.
+    organizationName: "leoralph", // Usually your GitHub org/user name.
+    projectName: "leoralph.github.io", // Usually your repo name.
 
     onBrokenLinks: "throw",
     onBrokenMarkdownLinks: "warn",
@@ -31,7 +31,7 @@ const config = {
     // may want to replace "en" with "zh-Hans".
     i18n: {
         defaultLocale: "pt-br",
-        locales: ["en", "pt-br"],
+        locales: ["pt-br", "en"],
     },
 
     presets: [
@@ -45,8 +45,7 @@ const config = {
                     routeBasePath: "/",
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
-                    editUrl:
-                        "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+                    editUrl: "https://github.com/leoralph/leoralph.github.io/tree/main/",
                 },
                 theme: {
                     customCss: "./src/css/custom.css",
@@ -61,14 +60,14 @@ const config = {
             // Replace with your project's social card
             image: "img/docusaurus-social-card.jpg",
             navbar: {
-                title: "My Site",
+                title: "LeoRalph",
                 logo: {
-                    alt: "My Site Logo",
+                    alt: "LeoRalph Logo",
                     src: "img/logo.svg",
                 },
                 items: [
                     {
-                        href: "https://github.com/facebook/docusaurus",
+                        href: "https://github.com/leoralph/leoralph.github.io",
                         label: "GitHub",
                         position: "right",
                     },
